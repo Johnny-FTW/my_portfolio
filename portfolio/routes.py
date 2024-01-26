@@ -38,8 +38,11 @@ def chart():
 def wallet():
     data = {}
     for asset in ASSETS:
-        total_value_usdt, coin_count, usdt_price = get_asset_data(asset)
-        data[f'{asset.lower()}_total_value_usdt'] = total_value_usdt
-        data[f'{asset.lower()}_coin_count'] = coin_count
-        data[f'{asset.lower()}_usdt_price'] = usdt_price
+        try:
+            total_value_usdt, coin_count, usdt_price = get_asset_data(asset)
+            data[f'{asset.lower()}_total_value_usdt'] = total_value_usdt
+            data[f'{asset.lower()}_coin_count'] = coin_count
+            data[f'{asset.lower()}_usdt_price'] = usdt_price
+        except Exception as e:
+            print(f"Error processing {asset}: {e}")
     return jsonify(data)
