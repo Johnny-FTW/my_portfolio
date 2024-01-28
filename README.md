@@ -45,7 +45,10 @@ Follow the steps below to set up and run coin value tracker on your local machin
     ```bash
     API_KEY='your_api_key'
     API_SECRET='your_api_secret'
-Note: Ensure your API key has the necessary permissions to access account information.
+   
+Important Security Note: Do not share or expose your API key and secret. Keep your credentials confidential to prevent 
+unauthorized access to your Binance account and potential security risks. Additionally, refrain from committing the .env 
+file containing your keys to version control systems to ensure the safety of your sensitive information.
 
 5. Open config.py and update the assets list with the cryptocurrencies you own:
     ```bash
