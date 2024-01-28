@@ -11,7 +11,7 @@ This coin value tracker is a simple single-page application that displays the de
 
 ## Getting Started
 
-Follow the steps below to set up and run Coin Value Tracker on your local machine.
+Follow the steps below to set up and run coin value tracker on your local machine.
 
 ### Prerequisites
 
@@ -57,14 +57,14 @@ Note: Ensure your API key has the necessary permissions to access account inform
       }]
    ```
 
-##Running the Application
+## Running the Application
 Run the following command to start the application:
 ```bash
 python run.py 
 ```
 Open your web browser and visit http://localhost:5000 to view your portfolio.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
