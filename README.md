@@ -1,5 +1,5 @@
 # My portfolio (Binance)
-![image](https://raw.githubusercontent.com/Johnny-FTW/my_portfolio/scr.png)
+![image](https://github.com/Johnny-FTW/my_portfolio/blob/main/scr.png)
 ## Introduction
 This coin value tracker is a simple single-page application that displays the details of your cryptocurrency holdings on Binance, presented in an interactive graph. The application utilizes the Binance API to fetch real-time data and visualizes it for a quick overview of your coin values.
 ### Built With
