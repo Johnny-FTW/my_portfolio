@@ -1,3 +1,11 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 # My portfolio (Binance)
 ![image](https://github.com/Johnny-FTW/my_portfolio/blob/main/scr.png)
 ## Introduction
@@ -69,29 +77,39 @@ This project is licensed under the MIT License.
 
 
 [Python.org]: https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
-
 [Python-url]: https://www.python.org/
 
 [Flask.com]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
-
 [Flask-url]: https://flask.palletsprojects.com/
 
 [HTML.com]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-
 [HTML-url]: https://https://html.com//
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-
 [Bootstrap-url]: https://getbootstrap.com
 
 [JS.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-
 [JS-url]: https://www.javascript.com/
 
 
 
+[contributors-shield]: https://img.shields.io/github/contributors/Johnny-FTW/Django-Profile-Viewer.svg?style=for-the-badge
+[contributors-url]: https://github.com/Johnny-FTW/Django-Profile-Viewer/graphs/contributors
 
+[forks-shield]: https://img.shields.io/github/forks/Johnny-FTW/my_portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/Johnny-FTW/my_portfolio/network/members
 
+[stars-shield]: https://img.shields.io/github/stars/Johnny-FTW/my_portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/Johnny-FTW/my_portfolio/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/Johnny-FTW/my_portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/Johnny-FTW/my_portfolio/issues
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/Johnny-FTW/my_portfolio/blob/main/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/jan-hatapka-6b970b205/
 
 
 
