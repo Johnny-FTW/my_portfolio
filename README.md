@@ -55,6 +55,7 @@ Note: Ensure your API key has the necessary permissions to access account inform
          backgroundColor: ["#FFE633", "#33D1FF"],
          hoverBackgroundColor: ["#F9FF33","#33E0FF"]
       }]
+   ```
 
 ##Running the Application
 Run the following command to start the application:
