@@ -93,8 +93,8 @@ This project is licensed under the MIT License.
 
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/Johnny-FTW/Django-Profile-Viewer.svg?style=for-the-badge
-[contributors-url]: https://github.com/Johnny-FTW/Django-Profile-Viewer/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/Johnny-FTW/my_portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/Johnny-FTW/my_portfolio/graphs/contributors
 
 [forks-shield]: https://img.shields.io/github/forks/Johnny-FTW/my_portfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/Johnny-FTW/my_portfolio/network/members
