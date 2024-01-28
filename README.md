@@ -1,6 +1,14 @@
 # My portfolio (Binance)
+![image](https://raw.githubusercontent.com/Johnny-FTW/my_portfolio/scr.png)
 ## Introduction
 This coin value tracker is a simple single-page application that displays the details of your cryptocurrency holdings on Binance, presented in an interactive graph. The application utilizes the Binance API to fetch real-time data and visualizes it for a quick overview of your coin values.
+### Built With
+* [![Python][Python.org]][Python-url]
+* [![Flask][Flask.com]][Flask-url]
+* [![HTML][HTML.com]][HTML-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JS][JS.com]][JS-url]
+
 ## Getting Started
 
 Follow the steps below to set up and run Coin Value Tracker on your local machine.
@@ -10,24 +18,28 @@ Follow the steps below to set up and run Coin Value Tracker on your local machin
 - Python 3.x
 - Git
 
-### Installation
+### Installation and set up
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/coin-value-tracker.git
+   git clone https://github.com/Johnny-FTW/my_portfolio.git
    
 2. Navigate to the project directory:
     ```bash
     cd my_portfolio
 
-3. Create a .env file in the project directory and add your Binance API key and secret:
+3. Install project dependencies:
+   ```bash
+    pip install -r requirements.txt
+
+4. Create a .env file in the project directory and add your Binance API key and secret:
     ```bash
     API_KEY='your_api_key'
     API_SECRET='your_api_secret'
 Note: Ensure your API key has the necessary permissions to access account information.
 
-4. Open config.py and update the assets list with the cryptocurrencies you own:
+5. Open config.py and update the assets list with the cryptocurrencies you own:
     ```bash
     config = {
     'api_key': os.getenv("API_KEY"),
@@ -35,27 +47,50 @@ Note: Ensure your API key has the necessary permissions to access account inform
     'assets': ['ENS', 'BNB']  # Add your assets here
     }
    
-5. Customize the chart appearance by modifying chart_data.js:
-    ```bash
-    // Modify background and hover colors as desired
-    const chartColors = {
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        hoverBackgroundColor: 'rgba(75, 192, 192, 0.8)',
-    };
+6. Customize the chart appearance by modifying chart_data.js:
+   ```bash
+   // Modify background and hover colors as desired
+      datasets: [{
+         data: assetKeys.map(key => data[key]),
+         backgroundColor: ["#FFE633", "#33D1FF"],
+         hoverBackgroundColor: ["#F9FF33","#33E0FF"]
+      }]
 
 ##Running the Application
 Run the following command to start the application:
-
-bash
-python run.py
-
-Open your web browser and visit http://localhost:5000 to view the Coin Value Tracker.
+```bash
+python run.py 
+```
+Open your web browser and visit http://localhost:5000 to view your portfolio.
 
 ##License
 This project is licensed under the MIT License.
 
-vbnet
+
+[Python.org]: https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
+
+[Python-url]: https://www.python.org/
+
+[Flask.com]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
+
+[Flask-url]: https://flask.palletsprojects.com/
+
+[HTML.com]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+
+[HTML-url]: https://https://html.com//
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+
+[Bootstrap-url]: https://getbootstrap.com
+
+[JS.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+
+[JS-url]: https://www.javascript.com/
 
 
 
-Make sure to replace placeholder values (like `your-username`) with the actual details relevant to your project. Additionally, feel free to modify the content based on your preferences and additional information you'd like to provide in the README.
+
+
+
+
+
